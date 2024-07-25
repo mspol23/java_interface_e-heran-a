@@ -1,7 +1,6 @@
 package main;
 
 import java.util.Locale;
-import java.util.Scanner;
 
 import model.entities.AbstractShape;
 import model.entities.Circle;
@@ -12,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-//		Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US);
 //		Scanner sc = new Scanner(System.in);
 		
 		AbstractShape s1 = new Circle(Colors.BLACK, 2.0);

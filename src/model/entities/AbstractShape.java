@@ -2,10 +2,10 @@ package model.entities;
 
 import model.enums.Colors;
 
-public abstract class AbstractShape {
-
+public abstract class AbstractShape implements Shape {
+	
 	private Colors color;
-
+	
 	public AbstractShape() {}
 
 	public AbstractShape(Colors color) {
@@ -19,6 +19,4 @@ public abstract class AbstractShape {
 	public void setColor(Colors color) {
 		this.color = color;
 	}
-	
-	public abstract Double getArea();
 }
